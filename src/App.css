@@ -1,0 +1,46 @@
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 800;
+  font-size: 8rem;
+  color: black;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(52, 52, 221);
+}
+
+.character-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(51, 56, 65);
+  padding: 20px;
+}
+
+.character-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.load-more-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.load-more-btn:hover {
+  background-color: #0056b3;
+}
